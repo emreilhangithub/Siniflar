@@ -27,6 +27,10 @@ namespace Siniflar
             rb.durum = 's';
             rb.YIL = -2016;
             rb.MARKASI = "golf";
+            rb.muayene = 2017;
+            rb.plaka = "34BJK1903";
+            rb.sahip = "Mustafa Emre İlhan";
+
 
             label1.Text = rb.renk;
             label2.Text = rb.hiz.ToString();
@@ -35,6 +39,9 @@ namespace Siniflar
             label5.Text = rb.durum.ToString();
             label6.Text = rb.YIL.ToString();
             label7.Text = rb.MARKASI;
+            label8.Text = rb.muayene.ToString();
+            label9.Text = rb.plaka;
+            label10.Text = rb.sahip;
             pictureBox1.BackColor = Color.CadetBlue;
         }
     }

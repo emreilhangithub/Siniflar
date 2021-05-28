@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Siniflar
 {
-    class Araba
+    class Araba:ArabaDetay
     {
         public string renk;
         public int hiz;
