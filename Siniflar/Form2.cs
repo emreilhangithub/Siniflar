@@ -19,8 +19,8 @@ namespace Siniflar
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            Araba rb2 = new Araba(); //nesne türettik
-            rb2.renk = "yeşil"; //nesnenin özelliklerine eriştik
+            Araba rb2 = new Araba();
+            rb2.renk = "yeşil";
             rb2.hiz = 140;
             rb2.motor = 1200.36;
             rb2.fiyat = 35860;
@@ -31,7 +31,7 @@ namespace Siniflar
             label3.Text = rb2.motor.ToString();
             label4.Text = rb2.fiyat.ToString();
             label5.Text = rb2.durum.ToString();
-            pictureBox1.BackColor = Color.LightSeaGreen;
+            pictureBox1.BackColor = Color.Red;
         }
     }
 }
