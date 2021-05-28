@@ -19,7 +19,19 @@ namespace Siniflar
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+            Araba rb2 = new Araba(); //nesne türettik
+            rb2.renk = "yeşil"; //nesnenin özelliklerine eriştik
+            rb2.hiz = 140;
+            rb2.motor = 1200.36;
+            rb2.fiyat = 35860;
+            rb2.durum = 'i';
+
+            label1.Text = rb2.renk;
+            label2.Text = rb2.hiz.ToString();
+            label3.Text = rb2.motor.ToString();
+            label4.Text = rb2.fiyat.ToString();
+            label5.Text = rb2.durum.ToString();
+            pictureBox1.BackColor = Color.LightSeaGreen;
         }
     }
 }
