@@ -27,7 +27,12 @@ namespace Siniflar
         }
 
 
-       
+        public string MARKASI
+        {
+            get { return marka; }
+            set { marka = value.ToUpper(); }
+            //gelen değerin hepsini büyük değere cevirdik
+        }
 
     }
 }
