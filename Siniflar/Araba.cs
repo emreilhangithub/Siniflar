@@ -13,6 +13,21 @@ namespace Siniflar
         public double motor;
         public char durum;
         public int fiyat;
+        private int yil; //erişemeyiz bunlara private ise
+        private string marka;
+
+        //istedigimiz formatta erişebilmek için bir erişim belirteyici tanımladık
+
+        public int YIL
+        {
+            get { return yil; } 
+            //geri deger döndürürz return ile
+            set { yil = Math.Abs(value); }
+            //abs mutlak degerdir yılın ın mutlagını aldık 
+        }
+
+
+       
 
     }
 }

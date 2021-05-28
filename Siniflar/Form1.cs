@@ -25,12 +25,14 @@ namespace Siniflar
             rb.motor = 1245.56;
             rb.fiyat = 50000;
             rb.durum = 's';
+            
 
             label1.Text = rb.renk;
             label2.Text = rb.hiz.ToString();
             label3.Text = rb.motor.ToString();
             label4.Text = rb.fiyat.ToString();
             label5.Text = rb.durum.ToString();
+            
             pictureBox1.BackColor = Color.CadetBlue;
         }
     }
