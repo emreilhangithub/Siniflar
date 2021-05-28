@@ -115,6 +115,7 @@ namespace Siniflar
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Form2";
             this.Text = "1.6";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
