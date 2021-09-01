@@ -90,6 +90,8 @@
       <DependentUpon>FrmNotlar.cs</DependentUpon>
     </Compile>
     <Compile Include="ICanlilar.cs" />
+    <Compile Include="InternalClass.cs" />
+    <Compile Include="InternalUlasim.cs" />
     <Compile Include="MySql.cs" />
     <Compile Include="Notlar.cs" />
     <Compile Include="Ogrenci.cs" />
