@@ -16,7 +16,7 @@ namespace Siniflar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmKalıtım());
+            Application.Run(new FrmInterface());
         }
     }
 }

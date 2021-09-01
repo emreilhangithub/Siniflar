@@ -46,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alemler.cs" />
     <Compile Include="Araba.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Hayvanlar.cs" />
+    <Compile Include="Bitkiler.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="Ev.cs" />
     <Compile Include="FrmAraba.cs">
@@ -80,6 +82,7 @@
     <Compile Include="FrmNotlar.Designer.cs">
       <DependentUpon>FrmNotlar.cs</DependentUpon>
     </Compile>
+    <Compile Include="ICanlilar.cs" />
     <Compile Include="MySql.cs" />
     <Compile Include="Notlar.cs" />
     <Compile Include="Ogrenci.cs" />

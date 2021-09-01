@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Siniflar
 {
-    class Class1
+    interface ICanlilar
     {
+        int Id { get; set; }
+        string Tur { get; set; }
+        string Cinsi { get; set; }
     }
 }
