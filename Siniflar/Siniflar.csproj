@@ -55,6 +55,12 @@
     <Compile Include="FrmAbstract.Designer.cs">
       <DependentUpon>FrmAbstract.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConstructors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConstructors.Designer.cs">
+      <DependentUpon>FrmConstructors.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hayvanlar.cs" />
     <Compile Include="Bitkiler.cs" />
     <Compile Include="Database.cs" />

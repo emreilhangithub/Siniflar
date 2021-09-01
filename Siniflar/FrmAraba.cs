@@ -72,6 +72,12 @@ namespace Siniflar
             FrmAbstract frm = new FrmAbstract();
             frm.ShowDialog();
         }
+
+        private void btnConstructors_Click(object sender, EventArgs e)
+        {
+            FrmConstructors frm = new FrmConstructors();
+            frm.ShowDialog();
+        }
     }
     public class Ulasim
     {

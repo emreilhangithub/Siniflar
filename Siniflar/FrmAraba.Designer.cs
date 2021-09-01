@@ -43,6 +43,7 @@ namespace Siniflar
             this.btnKalitim = new System.Windows.Forms.Button();
             this.btnInterface = new System.Windows.Forms.Button();
             this.btnAbstract = new System.Windows.Forms.Button();
+            this.btnConstructors = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -169,11 +170,22 @@ namespace Siniflar
             this.btnAbstract.UseVisualStyleBackColor = true;
             this.btnAbstract.Click += new System.EventHandler(this.btnAbstract_Click);
             // 
+            // btnConstructors
+            // 
+            this.btnConstructors.Location = new System.Drawing.Point(218, 523);
+            this.btnConstructors.Name = "btnConstructors";
+            this.btnConstructors.Size = new System.Drawing.Size(120, 64);
+            this.btnConstructors.TabIndex = 13;
+            this.btnConstructors.Text = "Constructors";
+            this.btnConstructors.UseVisualStyleBackColor = true;
+            this.btnConstructors.Click += new System.EventHandler(this.btnConstructors_Click);
+            // 
             // FrmAraba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 580);
+            this.ClientSize = new System.Drawing.Size(606, 714);
+            this.Controls.Add(this.btnConstructors);
             this.Controls.Add(this.btnAbstract);
             this.Controls.Add(this.btnInterface);
             this.Controls.Add(this.btnKalitim);
@@ -213,6 +225,7 @@ namespace Siniflar
         private System.Windows.Forms.Button btnKalitim;
         private System.Windows.Forms.Button btnInterface;
         private System.Windows.Forms.Button btnAbstract;
+        private System.Windows.Forms.Button btnConstructors;
     }
 }
 
