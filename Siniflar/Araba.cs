@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Siniflar
 {
@@ -20,7 +21,7 @@ namespace Siniflar
 
         public int YIL
         {
-            get { return yil; } 
+            get { return yil; }  //Encapsulation(Kapsülleme) Yaptık burada ve private değişkene ulaştık
             //geri deger döndürürz return ile
             set { yil = Math.Abs(value); }
             //abs mutlak degerdir yılın ın mutlagını aldık 
@@ -32,6 +33,16 @@ namespace Siniflar
             get { return marka; }
             set { marka = value.ToUpper(); }
             //gelen değerin hepsini büyük değere cevirdik
+        }
+
+        public void Add()
+        {
+            MessageBox.Show("Customer Add");
+        }
+
+        public void Update()
+        {
+            MessageBox.Show("Customer Update");
         }
 
     }

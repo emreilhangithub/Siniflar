@@ -38,6 +38,11 @@ namespace Siniflar
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnEv = new System.Windows.Forms.Button();
+            this.btnNotlar = new System.Windows.Forms.Button();
+            this.btnKalitim = new System.Windows.Forms.Button();
+            this.btnInterface = new System.Windows.Forms.Button();
+            this.btnAbstract = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,11 +119,66 @@ namespace Siniflar
             this.label7.TabIndex = 6;
             this.label7.Text = "label7";
             // 
+            // btnEv
+            // 
+            this.btnEv.Location = new System.Drawing.Point(42, 334);
+            this.btnEv.Name = "btnEv";
+            this.btnEv.Size = new System.Drawing.Size(120, 64);
+            this.btnEv.TabIndex = 8;
+            this.btnEv.Text = "Ev";
+            this.btnEv.UseVisualStyleBackColor = true;
+            this.btnEv.Click += new System.EventHandler(this.btnEv_Click);
+            // 
+            // btnNotlar
+            // 
+            this.btnNotlar.Location = new System.Drawing.Point(202, 334);
+            this.btnNotlar.Name = "btnNotlar";
+            this.btnNotlar.Size = new System.Drawing.Size(120, 64);
+            this.btnNotlar.TabIndex = 9;
+            this.btnNotlar.Text = "Notlar";
+            this.btnNotlar.UseVisualStyleBackColor = true;
+            this.btnNotlar.Click += new System.EventHandler(this.btnNotlar_Click);
+            // 
+            // btnKalitim
+            // 
+            this.btnKalitim.Location = new System.Drawing.Point(360, 334);
+            this.btnKalitim.Name = "btnKalitim";
+            this.btnKalitim.Size = new System.Drawing.Size(120, 64);
+            this.btnKalitim.TabIndex = 10;
+            this.btnKalitim.Text = "Kalıtım";
+            this.btnKalitim.UseVisualStyleBackColor = true;
+            this.btnKalitim.Click += new System.EventHandler(this.btnKalitim_Click);
+            // 
+            // btnInterface
+            // 
+            this.btnInterface.Location = new System.Drawing.Point(128, 426);
+            this.btnInterface.Name = "btnInterface";
+            this.btnInterface.Size = new System.Drawing.Size(120, 64);
+            this.btnInterface.TabIndex = 11;
+            this.btnInterface.Text = "Interface";
+            this.btnInterface.UseVisualStyleBackColor = true;
+            this.btnInterface.Click += new System.EventHandler(this.btnInterface_Click);
+            // 
+            // btnAbstract
+            // 
+            this.btnAbstract.Location = new System.Drawing.Point(341, 426);
+            this.btnAbstract.Name = "btnAbstract";
+            this.btnAbstract.Size = new System.Drawing.Size(120, 64);
+            this.btnAbstract.TabIndex = 12;
+            this.btnAbstract.Text = "Abstract";
+            this.btnAbstract.UseVisualStyleBackColor = true;
+            this.btnAbstract.Click += new System.EventHandler(this.btnAbstract_Click);
+            // 
             // FrmAraba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 450);
+            this.ClientSize = new System.Drawing.Size(606, 580);
+            this.Controls.Add(this.btnAbstract);
+            this.Controls.Add(this.btnInterface);
+            this.Controls.Add(this.btnKalitim);
+            this.Controls.Add(this.btnNotlar);
+            this.Controls.Add(this.btnEv);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
@@ -129,6 +189,7 @@ namespace Siniflar
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Impact", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "FrmAraba";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "1.5";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -147,6 +208,11 @@ namespace Siniflar
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnEv;
+        private System.Windows.Forms.Button btnNotlar;
+        private System.Windows.Forms.Button btnKalitim;
+        private System.Windows.Forms.Button btnInterface;
+        private System.Windows.Forms.Button btnAbstract;
     }
 }
 

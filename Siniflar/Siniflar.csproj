@@ -95,11 +95,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServer.cs" />
+    <EmbeddedResource Include="FrmAbstract.resx">
+      <DependentUpon>FrmAbstract.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAraba.resx">
       <DependentUpon>FrmAraba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEv.resx">
       <DependentUpon>FrmEv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInterface.resx">
+      <DependentUpon>FrmInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmKalıtım.resx">
       <DependentUpon>FrmKalıtım.cs</DependentUpon>

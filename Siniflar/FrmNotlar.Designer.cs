@@ -202,6 +202,7 @@ namespace Siniflar
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmNotlar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();
