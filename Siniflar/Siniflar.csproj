@@ -62,6 +62,12 @@
     <Compile Include="FrmEv.Designer.cs">
       <DependentUpon>FrmEv.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInterface.Designer.cs">
+      <DependentUpon>FrmInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmKalıtım.cs">
       <SubType>Form</SubType>
     </Compile>
