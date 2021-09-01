@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Siniflar
 {
-    class Ev
+   public class Ev
     {
         public string renk;
         public int kat;

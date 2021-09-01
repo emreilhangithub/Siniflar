@@ -41,8 +41,6 @@ namespace Siniflar
             arabaDetay.LASTIK = "BRIDGESTONE"; //protectede ulaştık
             MessageBox.Show(arabaDetay.LASTIK);
 
-
-
         }
 
         private void btnEv_Click(object sender, EventArgs e)
@@ -74,5 +72,9 @@ namespace Siniflar
             FrmAbstract frm = new FrmAbstract();
             frm.ShowDialog();
         }
+    }
+    public class Ulasim
+    {
+        public int a, b;
     }
 }
