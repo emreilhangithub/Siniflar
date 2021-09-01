@@ -1,18 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Siniflar
 {
-    public partial class Form4 : Form
+    public partial class FrmNotlar : Form
     {
-        public Form4()
+        public FrmNotlar()
         {
             InitializeComponent();
         }

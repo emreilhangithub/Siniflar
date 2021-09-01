@@ -1,7 +1,7 @@
 ﻿
 namespace Siniflar
 {
-    partial class Form4
+    partial class FrmNotlar
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,7 @@ namespace Siniflar
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnHesapla = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -95,15 +95,15 @@ namespace Siniflar
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 5;
             // 
-            // button1
+            // btnHesapla
             // 
-            this.button1.Location = new System.Drawing.Point(134, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 39);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Hesapla";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnHesapla.Location = new System.Drawing.Point(134, 187);
+            this.btnHesapla.Name = "btnHesapla";
+            this.btnHesapla.Size = new System.Drawing.Size(167, 39);
+            this.btnHesapla.TabIndex = 6;
+            this.btnHesapla.Text = "Hesapla";
+            this.btnHesapla.UseVisualStyleBackColor = true;
+            this.btnHesapla.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox4
             // 
@@ -179,7 +179,7 @@ namespace Siniflar
             this.listBox1.Size = new System.Drawing.Size(438, 64);
             this.listBox1.TabIndex = 15;
             // 
-            // Form4
+            // FrmNotlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -194,14 +194,14 @@ namespace Siniflar
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnHesapla);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form4";
+            this.Name = "FrmNotlar";
             this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -216,7 +216,7 @@ namespace Siniflar
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHesapla;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox5;

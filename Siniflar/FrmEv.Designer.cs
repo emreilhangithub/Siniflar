@@ -1,7 +1,7 @@
 ﻿
 namespace Siniflar
 {
-    partial class Form3
+    partial class FrmEv
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@ namespace Siniflar
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGoster = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label8
@@ -113,22 +113,22 @@ namespace Siniflar
             this.label1.TabIndex = 15;
             this.label1.Text = "Renk ";
             // 
-            // button1
+            // btnGoster
             // 
-            this.button1.Location = new System.Drawing.Point(85, 171);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 57);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnGoster.Location = new System.Drawing.Point(85, 171);
+            this.btnGoster.Name = "btnGoster";
+            this.btnGoster.Size = new System.Drawing.Size(139, 57);
+            this.btnGoster.TabIndex = 23;
+            this.btnGoster.Text = "Göster";
+            this.btnGoster.UseVisualStyleBackColor = true;
+            this.btnGoster.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form3
+            // FrmEv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnGoster);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -137,7 +137,7 @@ namespace Siniflar
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Name = "FrmEv";
             this.Text = "Form3";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -154,6 +154,6 @@ namespace Siniflar
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGoster;
     }
 }

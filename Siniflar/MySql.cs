@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Siniflar
 {
-    class ArabaDetay
+    class MySql : Database
     {
-        public string plaka;
-        public int muayene;
-        public string sahip;
+        public int MyProperty { get; set; }
     }
 }
