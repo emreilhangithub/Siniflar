@@ -37,6 +37,12 @@ namespace Siniflar
             Araba araba = new Araba { renk = "yesil", hiz = 180, motor = 111, fiyat = 60000, durum = 's', YIL = 2011, MARKASI = "Passat" }; //bu şekildede propertylere ulaşabiliriz
             MessageBox.Show(araba.renk);
 
+            ArabaDetay arabaDetay = new ArabaDetay();
+            arabaDetay.LASTIK = "BRIDGESTONE"; //protectede ulaştık
+            MessageBox.Show(arabaDetay.LASTIK);
+
+
+
         }
 
         private void btnEv_Click(object sender, EventArgs e)

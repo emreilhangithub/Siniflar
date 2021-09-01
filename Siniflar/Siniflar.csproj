@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Alemler.cs" />
     <Compile Include="Araba.cs" />
+    <Compile Include="ArabaDetay.cs" />
     <Compile Include="FrmAbstract.cs">
       <SubType>Form</SubType>
     </Compile>

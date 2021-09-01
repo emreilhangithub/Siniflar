@@ -16,6 +16,7 @@ namespace Siniflar
         public int fiyat;
         private int yil; //erişemeyiz bunlara private ise
         private string marka;
+        protected string lastik;
 
         //istedigimiz formatta erişebilmek için bir erişim belirteyici tanımladık
 
