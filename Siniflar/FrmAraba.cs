@@ -9,6 +9,9 @@ namespace Siniflar
         public FrmAraba()
         {
             InitializeComponent();
+            Global.KullaniciId = 1; //global değişkeni set ettik
+            Global.KullaniciAd = "Mustafa";
+            Global.Sifre = "Şifrem";
         }
 
         private void Form1_Load(object sender, EventArgs e)

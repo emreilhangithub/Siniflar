@@ -61,6 +61,7 @@
     <Compile Include="FrmConstructors.Designer.cs">
       <DependentUpon>FrmConstructors.cs</DependentUpon>
     </Compile>
+    <Compile Include="Global.cs" />
     <Compile Include="Hayvanlar.cs" />
     <Compile Include="Bitkiler.cs" />
     <Compile Include="Database.cs" />
